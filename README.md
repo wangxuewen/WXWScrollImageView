@@ -3,6 +3,7 @@ APP Store 介绍图浏览样式
 
 使用：
 1.添加pod
+
 pod 'WXWScrollImageView'
 
 2.使用例子
