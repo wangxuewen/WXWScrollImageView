@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188E0397911AD93BDCBFFD40 /* libPods-WXWScrollImageView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C00122567A47C9645D7E84 /* libPods-WXWScrollImageView.a */; };
 		849B7731219BC4C10008962A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B7730219BC4C10008962A /* AppDelegate.m */; };
 		849B7734219BC4C10008962A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B7733219BC4C10008962A /* ViewController.m */; };
 		849B7737219BC4C10008962A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849B7735219BC4C10008962A /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		849B773F219BC4C40008962A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B773E219BC4C40008962A /* main.m */; };
 		849B7749219BC4C40008962A /* WXWScrollImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B7748219BC4C40008962A /* WXWScrollImageViewTests.m */; };
 		849B7754219BC4C40008962A /* WXWScrollImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B7753219BC4C40008962A /* WXWScrollImageViewUITests.m */; };
+		849B7764219BC5CC0008962A /* WXWScrollImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B7763219BC5CC0008962A /* WXWScrollImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E88E91CF6DED5036D3DDE7B /* Pods-WXWScrollImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXWScrollImageView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXWScrollImageView/Pods-WXWScrollImageView.debug.xcconfig"; sourceTree = "<group>"; };
+		2D1F613112AA9CD46E3B2426 /* Pods-WXWScrollImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXWScrollImageView.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXWScrollImageView/Pods-WXWScrollImageView.release.xcconfig"; sourceTree = "<group>"; };
 		849B772C219BC4C10008962A /* WXWScrollImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXWScrollImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849B772F219BC4C10008962A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		849B7730219BC4C10008962A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		849B774F219BC4C40008962A /* WXWScrollImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXWScrollImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849B7753219BC4C40008962A /* WXWScrollImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWScrollImageViewUITests.m; sourceTree = "<group>"; };
 		849B7755219BC4C40008962A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849B7762219BC5CC0008962A /* WXWScrollImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXWScrollImageView.h; sourceTree = "<group>"; };
+		849B7763219BC5CC0008962A /* WXWScrollImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWScrollImageView.m; sourceTree = "<group>"; };
+		C3C00122567A47C9645D7E84 /* libPods-WXWScrollImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXWScrollImageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188E0397911AD93BDCBFFD40 /* libPods-WXWScrollImageView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		257660AB2A7733B87BDB00F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3C00122567A47C9645D7E84 /* libPods-WXWScrollImageView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		849B7723219BC4C10008962A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +101,8 @@
 				849B7747219BC4C40008962A /* WXWScrollImageViewTests */,
 				849B7752219BC4C40008962A /* WXWScrollImageViewUITests */,
 				849B772D219BC4C10008962A /* Products */,
+				F4E56FAF6C7E236FE4A48009 /* Pods */,
+				257660AB2A7733B87BDB00F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +119,7 @@
 		849B772E219BC4C10008962A /* WXWScrollImageView */ = {
 			isa = PBXGroup;
 			children = (
+				849B7761219BC4E70008962A /* WXWScrollImageView */,
 				849B772F219BC4C10008962A /* AppDelegate.h */,
 				849B7730219BC4C10008962A /* AppDelegate.m */,
 				849B7732219BC4C10008962A /* ViewController.h */,
@@ -132,6 +151,24 @@
 			path = WXWScrollImageViewUITests;
 			sourceTree = "<group>";
 		};
+		849B7761219BC4E70008962A /* WXWScrollImageView */ = {
+			isa = PBXGroup;
+			children = (
+				849B7762219BC5CC0008962A /* WXWScrollImageView.h */,
+				849B7763219BC5CC0008962A /* WXWScrollImageView.m */,
+			);
+			path = WXWScrollImageView;
+			sourceTree = "<group>";
+		};
+		F4E56FAF6C7E236FE4A48009 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E88E91CF6DED5036D3DDE7B /* Pods-WXWScrollImageView.debug.xcconfig */,
+				2D1F613112AA9CD46E3B2426 /* Pods-WXWScrollImageView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849B7758219BC4C40008962A /* Build configuration list for PBXNativeTarget "WXWScrollImageView" */;
 			buildPhases = (
+				74BAFEB35AC0359276C8472E /* [CP] Check Pods Manifest.lock */,
 				849B7728219BC4C10008962A /* Sources */,
 				849B7729219BC4C10008962A /* Frameworks */,
 				849B772A219BC4C10008962A /* Resources */,
@@ -257,6 +295,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74BAFEB35AC0359276C8472E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WXWScrollImageView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		849B7728219BC4C10008962A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +323,7 @@
 			files = (
 				849B7734219BC4C10008962A /* ViewController.m in Sources */,
 				849B773F219BC4C40008962A /* main.m in Sources */,
+				849B7764219BC5CC0008962A /* WXWScrollImageView.m in Sources */,
 				849B7731219BC4C10008962A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,11 +493,13 @@
 		};
 		849B7759219BC4C40008962A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E88E91CF6DED5036D3DDE7B /* Pods-WXWScrollImageView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q7AEAPEXBN;
 				INFOPLIST_FILE = WXWScrollImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +512,13 @@
 		};
 		849B775A219BC4C40008962A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1F613112AA9CD46E3B2426 /* Pods-WXWScrollImageView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q7AEAPEXBN;
 				INFOPLIST_FILE = WXWScrollImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
