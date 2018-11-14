@@ -4,6 +4,7 @@ APP Store 介绍图浏览样式
 使用：
 1.添加pod
 pod 'WXWScrollImageView'
+
 2.使用例子
 ````
  WXWScrollImageView *scrollImageView = [[WXWScrollImageView alloc] initWithFrame:CGRectMake(20, 90, SCREEN_WIDTH - 40, SCREEN_HEIGHT - 150)];
