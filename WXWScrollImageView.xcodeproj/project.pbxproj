@@ -17,6 +17,7 @@
 		849B7749219BC4C40008962A /* WXWScrollImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B7748219BC4C40008962A /* WXWScrollImageViewTests.m */; };
 		849B7754219BC4C40008962A /* WXWScrollImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B7753219BC4C40008962A /* WXWScrollImageViewUITests.m */; };
 		849B7764219BC5CC0008962A /* WXWScrollImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B7763219BC5CC0008962A /* WXWScrollImageView.m */; };
+		849B7766219C031C0008962A /* IMG_6814.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 849B7765219C031B0008962A /* IMG_6814.GIF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		849B7755219BC4C40008962A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849B7762219BC5CC0008962A /* WXWScrollImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXWScrollImageView.h; sourceTree = "<group>"; };
 		849B7763219BC5CC0008962A /* WXWScrollImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWScrollImageView.m; sourceTree = "<group>"; };
+		849B7765219C031B0008962A /* IMG_6814.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = IMG_6814.GIF; sourceTree = "<group>"; };
 		C3C00122567A47C9645D7E84 /* libPods-WXWScrollImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXWScrollImageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 		849B772E219BC4C10008962A /* WXWScrollImageView */ = {
 			isa = PBXGroup;
 			children = (
+				849B7765219C031B0008962A /* IMG_6814.GIF */,
 				849B7761219BC4E70008962A /* WXWScrollImageView */,
 				849B772F219BC4C10008962A /* AppDelegate.h */,
 				849B7730219BC4C10008962A /* AppDelegate.m */,
@@ -276,6 +279,7 @@
 				849B773C219BC4C40008962A /* LaunchScreen.storyboard in Resources */,
 				849B7739219BC4C40008962A /* Assets.xcassets in Resources */,
 				849B7737219BC4C10008962A /* Main.storyboard in Resources */,
+				849B7766219C031C0008962A /* IMG_6814.GIF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
